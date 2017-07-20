@@ -47,6 +47,7 @@ public class BufferFIFO<T>
         bufferMaxSize = dim;
         fifo = new LinkedList<T>();
         numelem = 0;        
+        log = false;
     }
 
     /**
